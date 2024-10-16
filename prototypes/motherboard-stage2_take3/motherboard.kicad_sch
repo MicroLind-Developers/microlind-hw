@@ -461,10 +461,6 @@
 		(uuid "4829c488-6870-4bf9-8a39-983b5ce916ed")
 	)
 	(no_connect
-		(at 187.96 114.3)
-		(uuid "9b857e10-bcf7-40c6-b9b2-7dfb64811dcb")
-	)
-	(no_connect
 		(at 207.01 134.62)
 		(uuid "9c594292-312e-48cd-ab8d-c1523a574afb")
 	)
@@ -522,6 +518,16 @@
 			(type default)
 		)
 		(uuid "048eb5dd-80a1-417e-a714-ca98480035f1")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e9126d-ad8e-4a03-86ae-c5fb665b771d")
 	)
 	(wire
 		(pts
@@ -822,6 +828,16 @@
 			(type default)
 		)
 		(uuid "3ce1c4ab-db54-40f8-893f-8d575efdc39d")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5efaac-ce4e-4ef0-b7e8-db47c439fcb4")
 	)
 	(bus
 		(pts
@@ -1175,7 +1191,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 165.1 113.03)
+			(xy 106.68 113.03) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1285,6 +1301,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 156.21) (xy 57.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d5fd13-13c7-4c81-91de-866f02429ca4")
+	)
+	(wire
+		(pts
 			(xy 64.77 133.35) (xy 115.57 133.35)
 		)
 		(stroke
@@ -1342,16 +1368,6 @@
 			(type default)
 		)
 		(uuid "a403781b-6a5d-4fcc-a355-80474a711950")
-	)
-	(wire
-		(pts
-			(xy 165.1 113.03) (xy 165.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac4f1a6d-53e3-4409-95eb-669845435995")
 	)
 	(wire
 		(pts
@@ -1512,6 +1528,16 @@
 			(type default)
 		)
 		(uuid "d619f3be-7fbd-4495-9c79-df80cc600306")
+	)
+	(wire
+		(pts
+			(xy 198.12 113.03) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d4be52-4940-4297-8eff-80637035da1f")
 	)
 	(wire
 		(pts
@@ -2860,7 +2886,7 @@
 			)
 			(uuid "8bfb9da4-ff1c-40b3-b800-fdc67560f827")
 		)
-		(pin "~{MEM_WR}" input
+		(pin "~{MAP_WR}" input
 			(at 204.47 134.62 270)
 			(effects
 				(font
@@ -2870,7 +2896,7 @@
 			)
 			(uuid "a6f771fd-0a6c-4ebe-ab26-8e488359f6ea")
 		)
-		(pin "~{MEM_RD}" input
+		(pin "~{MAP_EN}" input
 			(at 207.01 134.62 270)
 			(effects
 				(font
@@ -2880,8 +2906,8 @@
 			)
 			(uuid "8de3f3c1-68b2-44a9-91d3-87629f2a1731")
 		)
-		(pin "~{MAP_EN}" input
-			(at 165.1 114.3 90)
+		(pin "~{ADDR_CTRL}" input
+			(at 198.12 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3123,7 @@
 			)
 			(uuid "ee4b5b34-4dae-49af-9c32-0635ca442b63")
 		)
-		(pin "~{MAP_EN}" output
+		(pin "~{ADDR_CTRL}" output
 			(at 105.41 168.91 0)
 			(effects
 				(font
@@ -3106,6 +3132,16 @@
 				(justify right)
 			)
 			(uuid "8c8b4dd3-d9bc-4b44-85e9-7c89231e6aad")
+		)
+		(pin "~{EXP_EN}" input
+			(at 57.15 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bddda589-f6b0-4004-8be0-02b2196cf83b")
 		)
 		(instances
 			(project "motherboard"
