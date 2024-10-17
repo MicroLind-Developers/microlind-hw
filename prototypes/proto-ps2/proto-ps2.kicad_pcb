@@ -188,7 +188,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U1"
-			(at 0 17.795 270)
+			(at 0 17.795 -90)
 			(layer "F.SilkS")
 			(uuid "4f0aee50-c536-4e43-81cb-0e51738d2d7a")
 			(effects
@@ -199,7 +199,7 @@
 			)
 		)
 		(property "Value" "74HCT32"
-			(at 2.032 2.286 360)
+			(at 2.032 2.286 0)
 			(layer "F.SilkS")
 			(uuid "4a507fec-5ff4-4c1d-ab96-1cfefd6ab1af")
 			(effects
@@ -875,7 +875,7 @@
 			)
 		)
 		(property "Value" "74HCT14"
-			(at 2.032 2.286 360)
+			(at 2.032 2.286 0)
 			(layer "F.SilkS")
 			(uuid "81658d66-106d-4b7c-ad99-58d7e2fde467")
 			(effects
@@ -1318,7 +1318,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U3"
-			(at 7.62 20.32 270)
+			(at 7.62 20.32 -90)
 			(layer "F.SilkS")
 			(uuid "278aaa3b-4bd5-4eac-ba82-2f99a93ee83c")
 			(effects
@@ -1806,7 +1806,7 @@
 		(descr "20-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U9"
-			(at 0 25.4 270)
+			(at 0 25.4 -90)
 			(layer "F.SilkS")
 			(uuid "abef14a4-0b38-4d67-a1cd-ead7321a6ec1")
 			(effects
@@ -2338,7 +2338,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R2"
-			(at -2.032 0 270)
+			(at -2.032 0 -90)
 			(layer "F.SilkS")
 			(uuid "33f66ee2-998f-4cc5-9c0e-f12a9927ce18")
 			(effects
@@ -2600,7 +2600,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U4"
-			(at 0 20.32 270)
+			(at 0 20.32 -90)
 			(layer "F.SilkS")
 			(uuid "ec68ec6d-96e4-4315-9deb-27c7e9c80c34")
 			(effects
@@ -4012,7 +4012,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C11"
-			(at 4.020597 0 270)
+			(at 4.020597 0 -90)
 			(layer "F.SilkS")
 			(uuid "df640dc7-0bb7-469b-967c-badd0a7749e2")
 			(effects
@@ -5349,7 +5349,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C9"
-			(at 4.785999 -0.000001 270)
+			(at 4.785999 -0.000001 -90)
 			(layer "F.SilkS")
 			(uuid "7be073a8-c1e2-46ce-b001-dbb913033016")
 			(effects
@@ -5571,7 +5571,7 @@
 		(descr "Through hole straight socket strip, 1x09, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x09 2.54mm single row")
 		(property "Reference" "J3"
-			(at -0.05 -2.56 270)
+			(at -0.05 -2.56 -90)
 			(layer "F.SilkS")
 			(uuid "46af91ff-d97f-4367-9b50-f2f949078866")
 			(effects
@@ -5582,7 +5582,7 @@
 			)
 		)
 		(property "Value" "AUX"
-			(at 0 23.09 270)
+			(at 0 23.09 -90)
 			(layer "F.SilkS")
 			(uuid "8d44415b-235e-4712-beea-2413b3e54958")
 			(effects
@@ -5784,7 +5784,7 @@
 			(uuid "2065734a-9b3e-4663-940f-21e117eba9e5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 10.16 360)
+			(at 0 10.16 0)
 			(layer "F.Fab")
 			(uuid "6836707b-7d8f-48a6-9959-4d3767f2b726")
 			(effects
@@ -6134,7 +6134,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U2"
-			(at -0.508 17.78 270)
+			(at -0.508 17.78 -90)
 			(layer "F.SilkS")
 			(uuid "613a6a8e-c33c-4a6c-9031-04a8a853b832")
 			(effects
@@ -6145,7 +6145,7 @@
 			)
 		)
 		(property "Value" "74HCT14"
-			(at 2.022 2.291 360)
+			(at 2.022 2.291 0)
 			(layer "F.SilkS")
 			(uuid "5ff65bdc-42d7-4fdd-a8a8-1a66ee81d9c0")
 			(effects
@@ -6588,7 +6588,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
-			(at -2.032 0 270)
+			(at -2.032 0 -90)
 			(layer "F.SilkS")
 			(uuid "37743043-ef5f-4d00-b763-4e9f7a773831")
 			(effects
@@ -7083,7 +7083,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.81 1.92 360)
+			(at 3.81 1.92 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0dd237a5-4785-4af5-8693-b9b53680e8e2")
@@ -8425,7 +8425,7 @@
 		(descr "20-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U6"
-			(at 7.62 25.4 270)
+			(at 7.62 25.4 -90)
 			(layer "F.SilkS")
 			(uuid "33eeb5f7-af0d-474b-a19e-44db034fbc3c")
 			(effects
@@ -8968,7 +8968,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.81 1.92 360)
+			(at 3.81 1.92 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ece8b353-2225-4441-841b-6386b624eb92")
@@ -9219,7 +9219,7 @@
 		(descr "Through hole straight socket strip, 1x09, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x09 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.77 270)
+			(at 0 -2.77 -90)
 			(layer "F.SilkS")
 			(uuid "7efb8590-068c-41f8-bb3c-141027ab6a3c")
 			(effects
@@ -9230,7 +9230,7 @@
 			)
 		)
 		(property "Value" "DataValue"
-			(at 0 23.09 270)
+			(at 0 23.09 -90)
 			(layer "F.SilkS")
 			(uuid "491778f4-cbe8-4153-aa6d-dd356c54726a")
 			(effects
@@ -9432,7 +9432,7 @@
 			(uuid "060b248e-b184-4ed0-898d-711fe2d51055")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 10.16 360)
+			(at 0 10.16 0)
 			(layer "F.Fab")
 			(uuid "0eccd0a6-9831-41ef-9e3c-148538264205")
 			(effects
@@ -9560,7 +9560,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U7"
-			(at -0.254 20.32 270)
+			(at -0.254 20.32 -90)
 			(layer "F.SilkS")
 			(uuid "5f64ed3a-846f-4174-aafa-b42000f87ade")
 			(effects
@@ -10048,7 +10048,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U8"
-			(at 0 20.32 270)
+			(at 0 20.32 -90)
 			(layer "F.SilkS")
 			(uuid "a2dfd853-28a5-4022-b3d9-5c881d68ba5f")
 			(effects
@@ -10536,7 +10536,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C10"
-			(at 4.0206 0 270)
+			(at 4.0206 0 -90)
 			(layer "F.SilkS")
 			(uuid "78a6ebcb-02b3-40ad-841c-5adde8dfb47c")
 			(effects
@@ -12343,7 +12343,7 @@
 		)
 		(polygon
 			(pts
-				(xy 160.02 15.24) (xy 160.02 78.74) (xy 259.08 78.74) (xy 259.08 15.24) (xy 160.02 15.24)
+				(xy 160.02 15.24) (xy 160.02 78.74) (xy 259.08 78.74) (xy 259.08 15.24)
 			)
 		)
 		(filled_polygon

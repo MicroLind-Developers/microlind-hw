@@ -1001,7 +1001,7 @@
 			)
 		)
 		(property "Value" "HW CTS"
-			(at 2.794 2.779 270)
+			(at 2.794 2.779 -90)
 			(layer "F.SilkS")
 			(uuid "bfd136ba-8173-4a83-a35b-88ec6f610dc4")
 			(effects
@@ -1203,7 +1203,7 @@
 			(uuid "39f1fad0-6e74-453a-875e-652b935eea3a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 270)
+			(at 0 2.54 -90)
 			(layer "F.Fab")
 			(uuid "39b94233-205a-4e66-bc3e-94fc1c5cf6a3")
 			(effects
@@ -12064,7 +12064,7 @@
 		(descr "Open Source Hardware Logo")
 		(tags "Logo OSHW")
 		(property "Reference" "REF**"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "61a7c48a-3b26-496b-93ef-75f169cfe88e")
@@ -12076,7 +12076,7 @@
 			)
 		)
 		(property "Value" "OSHW-Logo_7.5x8mm_SilkScreen"
-			(at 0.75 0 270)
+			(at 0.75 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97f35c90-c314-4d2f-baad-e57e3db9f7f5")
@@ -15950,7 +15950,7 @@
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
-			(at 0 -5.08 270)
+			(at 0 -5.08 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6f5b6e74-95d5-44c7-bdd7-47aab77cbee0")
@@ -15962,7 +15962,7 @@
 			)
 		)
 		(property "Value" "KiCad-Logo2_5mm_SilkScreen"
-			(at 0 5.08 270)
+			(at 0 5.08 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29ba345a-aced-4f99-a832-4ff886421123")
