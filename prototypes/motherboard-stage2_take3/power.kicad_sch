@@ -2913,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 147.32) (xy 48.26 149.86)
+			(xy 264.16 73.66) (xy 264.16 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 135.89) (xy 48.26 139.7)
+			(xy 264.16 62.23) (xy 264.16 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3053,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 31.75) (xy 248.92 31.75)
+			(xy 247.65 31.75) (xy 261.62 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3281,6 +3281,16 @@
 		)
 		(uuid "e876abb8-889c-4c90-80ba-4d33a57dcd0f")
 	)
+	(wire
+		(pts
+			(xy 261.62 31.75) (xy 261.62 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0b6a2b-3360-40e0-80fe-4cb2fc922cfc")
+	)
 	(bus
 		(pts
 			(xy 87.63 63.5) (xy 87.63 66.04)
@@ -3453,13 +3463,13 @@
 	)
 	(hierarchical_label "~{RST}"
 		(shape output)
-		(at 248.92 31.75 0)
+		(at 261.62 34.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "186916f7-ac49-47a4-8220-3e487486f322")
 	)
@@ -4160,7 +4170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 149.86 0)
+		(at 264.16 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4169,7 +4179,7 @@
 		(fields_autoplaced yes)
 		(uuid "539e7253-58c8-4ad9-80bc-f59237679165")
 		(property "Reference" "#PWR091"
-			(at 48.26 156.21 0)
+			(at 264.16 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 153.9955 0)
+			(at 264.16 80.3355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 149.86 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 149.86 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 149.86 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4572,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 48.26 135.89 0)
+		(at 264.16 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4571,7 +4581,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb9d3f27-0602-4161-b871-78a6c6d5be69")
 		(property "Reference" "#PWR090"
-			(at 48.26 139.7 0)
+			(at 264.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4590,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 48.26 132.3881 0)
+			(at 264.16 58.7281 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 135.89 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 135.89 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 135.89 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5069,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 143.51 0)
+		(at 264.16 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5068,7 +5078,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffe7eb3a-5c6b-475e-b97c-34663ffad3b0")
 		(property "Reference" "C36"
-			(at 51.181 142.8663 0)
+			(at 267.081 69.2063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5087,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 51.181 144.7873 0)
+			(at 267.081 71.1273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5096,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 49.2252 147.32 0)
+			(at 265.1252 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 143.51 0)
+			(at 264.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +5114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 143.51 0)
+			(at 264.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

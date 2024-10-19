@@ -2283,7 +2283,7 @@
 		)
 	)
 	(junction
-		(at 199.39 146.05)
+		(at 222.25 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05b60650-2aac-41e5-b648-32473084369c")
@@ -2301,7 +2301,7 @@
 		(uuid "1934d582-6300-49f0-8156-18b620b1a864")
 	)
 	(junction
-		(at 187.96 146.05)
+		(at 210.82 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b21cf97-8cac-4104-861a-5589960826a5")
@@ -2313,7 +2313,7 @@
 		(uuid "2ced243d-41f5-4b92-bacd-65b7c7bc702f")
 	)
 	(junction
-		(at 210.82 156.21)
+		(at 233.68 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38a13b3f-e188-4ddd-a4bd-ddd0aa78ec05")
@@ -2325,7 +2325,7 @@
 		(uuid "445244fd-2bcc-42c6-ba4f-c119243da130")
 	)
 	(junction
-		(at 222.25 156.21)
+		(at 245.11 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c940bd4-7399-4556-99da-8d87aeb81833")
@@ -2337,7 +2337,7 @@
 		(uuid "4e3fb59d-5bcc-42b9-a361-1fcf6d2dfaf6")
 	)
 	(junction
-		(at 187.96 156.21)
+		(at 210.82 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "677e18e8-c534-4326-8ee8-1f056212402d")
@@ -2361,13 +2361,13 @@
 		(uuid "7f20999c-d2e1-4950-a249-695ec969902f")
 	)
 	(junction
-		(at 210.82 146.05)
+		(at 233.68 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82cbfc75-3969-40dd-8f47-0ffd54bc2323")
 	)
 	(junction
-		(at 222.25 146.05)
+		(at 245.11 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b3184d4-7b54-4b4f-9a23-d4394c0349a9")
@@ -2379,7 +2379,7 @@
 		(uuid "8c5baa5a-6094-476b-b26d-0bd15e6b994c")
 	)
 	(junction
-		(at 199.39 156.21)
+		(at 222.25 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97e04fb0-a89f-4c92-82bc-51ad0af91f0f")
@@ -2391,13 +2391,13 @@
 		(uuid "9a3f69c6-d25a-470f-8526-726d88f71c71")
 	)
 	(junction
-		(at 234.95 156.21)
+		(at 257.81 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a10c97c4-90c6-4a67-8f02-72ba77454835")
 	)
 	(junction
-		(at 234.95 146.05)
+		(at 257.81 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae7be9ee-772e-4194-b2d7-22ccd6536dbe")
@@ -2909,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 146.05) (xy 210.82 147.32)
+			(xy 233.68 144.78) (xy 233.68 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 156.21) (xy 234.95 154.94)
+			(xy 257.81 154.94) (xy 257.81 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 146.05) (xy 246.38 146.05)
+			(xy 257.81 144.78) (xy 269.24 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 156.21) (xy 187.96 157.48)
+			(xy 210.82 154.94) (xy 210.82 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3399,7 +3399,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 156.21) (xy 199.39 156.21)
+			(xy 210.82 154.94) (xy 222.25 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 146.05) (xy 246.38 147.32)
+			(xy 269.24 144.78) (xy 269.24 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3619,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 156.21) (xy 210.82 156.21)
+			(xy 222.25 154.94) (xy 233.68 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 146.05) (xy 222.25 146.05)
+			(xy 233.68 144.78) (xy 245.11 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 143.51) (xy 187.96 146.05)
+			(xy 210.82 142.24) (xy 210.82 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 156.21) (xy 199.39 154.94)
+			(xy 222.25 154.94) (xy 222.25 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3929,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 156.21) (xy 246.38 154.94)
+			(xy 269.24 154.94) (xy 269.24 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 146.05) (xy 199.39 146.05)
+			(xy 210.82 144.78) (xy 222.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4009,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 146.05) (xy 210.82 146.05)
+			(xy 222.25 144.78) (xy 233.68 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4019,7 +4019,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 156.21) (xy 234.95 156.21)
+			(xy 245.11 154.94) (xy 257.81 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +4069,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 146.05) (xy 222.25 147.32)
+			(xy 245.11 144.78) (xy 245.11 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4219,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 146.05) (xy 234.95 147.32)
+			(xy 257.81 144.78) (xy 257.81 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4439,7 +4439,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 146.05) (xy 234.95 146.05)
+			(xy 245.11 144.78) (xy 257.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4489,7 +4489,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 156.21) (xy 246.38 156.21)
+			(xy 257.81 154.94) (xy 269.24 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4539,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 156.21) (xy 222.25 156.21)
+			(xy 233.68 154.94) (xy 245.11 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 146.05) (xy 199.39 147.32)
+			(xy 222.25 144.78) (xy 222.25 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4789,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 146.05) (xy 187.96 147.32)
+			(xy 210.82 144.78) (xy 210.82 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4859,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 154.94) (xy 187.96 156.21)
+			(xy 210.82 153.67) (xy 210.82 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5169,7 +5169,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 156.21) (xy 210.82 154.94)
+			(xy 233.68 154.94) (xy 233.68 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5199,7 +5199,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 156.21) (xy 222.25 154.94)
+			(xy 245.11 154.94) (xy 245.11 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6603,7 +6603,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 151.13 0)
+		(at 222.25 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6612,7 +6612,7 @@
 		(fields_autoplaced yes)
 		(uuid "00cdccd9-86b9-48a3-809e-da4fc667cb59")
 		(property "Reference" "C32"
-			(at 202.311 150.4863 0)
+			(at 225.171 149.2163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6621,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 202.311 152.4073 0)
+			(at 225.171 151.1373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,7 +6630,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 200.3552 154.94 0)
+			(at 223.2152 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +6639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 151.13 0)
+			(at 222.25 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,7 +6648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 151.13 0)
+			(at 222.25 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6673,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 187.96 151.13 0)
+		(at 210.82 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6682,7 +6682,7 @@
 		(fields_autoplaced yes)
 		(uuid "15dc1ddf-4623-4561-a1a5-ed827a5e6e30")
 		(property "Reference" "C31"
-			(at 190.881 150.4863 0)
+			(at 213.741 149.2163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6691,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 190.881 152.4073 0)
+			(at 213.741 151.1373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6700,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 188.9252 154.94 0)
+			(at 211.7852 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 151.13 0)
+			(at 210.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6718,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 151.13 0)
+			(at 210.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +6813,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 157.48 0)
+		(at 210.82 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6822,7 +6822,7 @@
 		(fields_autoplaced yes)
 		(uuid "3615708f-2d40-4a31-8f0f-ca6b4f198ffd")
 		(property "Reference" "#PWR079"
-			(at 187.96 163.83 0)
+			(at 210.82 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6831,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 161.6155 0)
+			(at 210.82 160.3455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,7 +6839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 157.48 0)
+			(at 210.82 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 157.48 0)
+			(at 210.82 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +6857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 157.48 0)
+			(at 210.82 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7015,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 222.25 151.13 0)
+		(at 245.11 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7024,7 +7024,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a8f1a89-d268-4eba-9daf-fa959d4e9326")
 		(property "Reference" "C34"
-			(at 225.171 150.4863 0)
+			(at 248.031 149.2163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +7033,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 225.171 152.4073 0)
+			(at 248.031 151.1373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7042,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 223.2152 154.94 0)
+			(at 246.0752 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 151.13 0)
+			(at 245.11 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7060,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 151.13 0)
+			(at 245.11 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7197,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 234.95 151.13 0)
+		(at 257.81 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7206,7 +7206,7 @@
 		(fields_autoplaced yes)
 		(uuid "515430c5-2a4b-4264-b894-9ab5050b9b17")
 		(property "Reference" "C35"
-			(at 237.871 150.4863 0)
+			(at 260.731 149.2163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7215,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 237.871 152.4073 0)
+			(at 260.731 151.1373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7224,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 235.9152 154.94 0)
+			(at 258.7752 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 151.13 0)
+			(at 257.81 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7242,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 151.13 0)
+			(at 257.81 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7465,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 187.96 143.51 0)
+		(at 210.82 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7474,7 +7474,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cad9458-4214-437c-b8b3-241b8daf5185")
 		(property "Reference" "#PWR078"
-			(at 187.96 147.32 0)
+			(at 210.82 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7483,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 187.96 140.0081 0)
+			(at 210.82 138.7381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 143.51 0)
+			(at 210.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 143.51 0)
+			(at 210.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +7509,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 143.51 0)
+			(at 210.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7643,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 151.13 0)
+		(at 269.24 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7652,7 +7652,7 @@
 		(fields_autoplaced yes)
 		(uuid "75bf82d8-88a6-4bc5-b086-e98395f21f3b")
 		(property "Reference" "C40"
-			(at 249.301 150.4863 0)
+			(at 272.161 149.2163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7661,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 249.301 152.4073 0)
+			(at 272.161 151.1373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +7670,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 247.3452 154.94 0)
+			(at 270.2052 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +7679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 151.13 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +7688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 151.13 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8429,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 151.13 0)
+		(at 233.68 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8438,7 +8438,7 @@
 		(fields_autoplaced yes)
 		(uuid "e60b8f40-7e4e-4bda-ad43-5da589be85f9")
 		(property "Reference" "C33"
-			(at 213.741 150.4863 0)
+			(at 236.601 149.2163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8447,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 213.741 152.4073 0)
+			(at 236.601 151.1373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8456,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 211.7852 154.94 0)
+			(at 234.6452 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 151.13 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,7 +8474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 151.13 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
