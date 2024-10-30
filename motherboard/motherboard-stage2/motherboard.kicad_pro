@@ -519,7 +519,7 @@
       "specctra_dsn": "motherboard.dsn",
       "step": "motherboard.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "motherboard.wrl"
     },
     "page_layout_descr_file": ""
   },
