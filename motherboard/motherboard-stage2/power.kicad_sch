@@ -5262,7 +5262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b389a3-00f8-4208-8d4c-4edbe31132e5")
-		(property "Reference" "SW1"
+		(property "Reference" "Power SW1"
 			(at 99.695 115.1008 90)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 		(instances
 			(project "motherboard"
 				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b/2674a088-a7e1-45c5-a464-4e213ad1e901"
-					(reference "SW1")
+					(reference "Power SW1")
 					(unit 1)
 				)
 			)

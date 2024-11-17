@@ -431,6 +431,12 @@
 		(uuid "a6ba641f-53b3-4c95-b8e6-a122b76e9e6e")
 	)
 	(junction
+		(at 88.9 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b61ee620-4666-41dd-a5a9-f75058af5cd0")
+	)
+	(junction
 		(at 82.55 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -615,6 +621,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 135.89) (xy 176.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1364afe8-ec87-4faf-b168-1dadef3f1312")
+	)
+	(wire
+		(pts
 			(xy 59.69 82.55) (xy 59.69 88.9)
 		)
 		(stroke
@@ -672,6 +688,16 @@
 			(type default)
 		)
 		(uuid "1f6059f5-a071-4ac9-bc8a-0e1ce7903e8d")
+	)
+	(wire
+		(pts
+			(xy 88.9 82.55) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe3a0dd-6ec4-40a5-9382-dce7d77b5b14")
 	)
 	(wire
 		(pts
@@ -965,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 135.89) (xy 176.53 135.89)
+			(xy 45.72 135.89) (xy 88.9 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1921,7 @@
 		(uuid "87f66615-2c92-46f9-b631-7517769a665d")
 	)
 	(label "D[0..7]"
-		(at 74.93 125.73 0)
+		(at 118.11 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1906,7 +1932,7 @@
 		(uuid "88a11958-87bf-4ba3-8c80-5a38c87036d5")
 	)
 	(label "AM[14..21]"
-		(at 83.82 130.81 0)
+		(at 118.11 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1917,7 +1943,7 @@
 		(uuid "bd432962-249b-489d-94f6-b3b376a6295f")
 	)
 	(label "~{IRQ_[0..15]}"
-		(at 83.82 121.92 0)
+		(at 118.11 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1928,7 +1954,7 @@
 		(uuid "bdba877a-ed33-4047-bb9b-db3256264957")
 	)
 	(label "A[0..15]"
-		(at 86.36 128.27 0)
+		(at 118.11 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3406,6 +3432,16 @@
 				(justify left)
 			)
 			(uuid "d13754a0-c2d3-4d0e-a00c-c683fc78d379")
+		)
+		(pin "Q" input
+			(at 88.9 82.55 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e78a80e-bdaf-49c2-a96e-0992c53255bb")
 		)
 		(instances
 			(project "motherboard"

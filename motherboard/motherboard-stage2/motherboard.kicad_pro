@@ -58,12 +58,23 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|109113000|239649000|cd70d977-3ae8-412a-a1a9-ce6096da6708|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|114987000|170148000|79e65bf4-bbdd-4e01-8bad-bbb4c695213a|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|44532000|234860600|92ad6a26-d058-402d-8950-537ed5508136|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|44532000|256860600|92ad6a26-d058-402d-8950-537ed5508136|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|44532000|261754600|92ad6a26-d058-402d-8950-537ed5508136|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|76432000|261721600|92ad6a26-d058-402d-8950-537ed5508136|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|100852000|84963000|1ea2c780-9988-4f48-bcdc-97c5abb8d962|dd1b9f76-6cde-4fdd-8fb4-51f497225aa6",
+        "silk_edge_clearance|44987000|255143000|9958162c-107e-4c4e-86a7-1ce0d2dc2cee|d7db1a05-03b2-4716-811c-11729df5a4eb",
+        "silk_edge_clearance|75957000|255143000|9958162c-107e-4c4e-86a7-1ce0d2dc2cee|95c841b3-0b55-4caa-9117-c69c08189161",
+        "silk_edge_clearance|88632000|84963000|1ea2c780-9988-4f48-bcdc-97c5abb8d962|5275e304-f3cf-4f88-9826-6f2c5f8ce066"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "ignore",
+        "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -85,9 +96,9 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
-        "lib_footprint_mismatch": "ignore",
-        "malformed_courtyard": "ignore",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -96,12 +107,12 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -118,19 +129,19 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.127,
-        "min_hole_clearance": 0.09,
-        "min_hole_to_hole": 0.5,
+        "min_copper_edge_clearance": 0.0,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.2,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -181,10 +192,14 @@
       ],
       "track_widths": [
         0.0,
+        0.1016,
+        0.127,
         0.1524,
+        0.2032,
+        0.254,
         0.3048,
-        0.521,
-        1.25
+        0.508,
+        0.762
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -218,8 +233,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
-          "drill": 0.2
+          "diameter": 0.505,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false

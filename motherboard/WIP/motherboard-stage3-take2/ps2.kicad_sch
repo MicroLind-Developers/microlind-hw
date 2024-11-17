@@ -6120,6 +6120,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 77.47) (xy 255.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d88063-384c-4278-b636-6a1fea1ccca4")
+	)
+	(wire
+		(pts
 			(xy 93.98 116.84) (xy 93.98 162.56)
 		)
 		(stroke
@@ -6673,8 +6683,8 @@
 		(uuid "e34566c7-bd50-45f7-9a0c-0703fb858b03")
 	)
 	(hierarchical_label "~{INT_PS2_KB}"
-		(shape input)
-		(at 254 77.47 0)
+		(shape output)
+		(at 255.27 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

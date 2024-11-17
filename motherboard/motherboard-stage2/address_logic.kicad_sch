@@ -7964,6 +7964,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field2" ""
+			(at 0 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "54fdeef2-8958-4bfc-b023-049e438e1220")
 		)

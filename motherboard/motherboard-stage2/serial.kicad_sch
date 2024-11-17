@@ -10048,7 +10048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74540eef-36f4-43ba-afca-28d8a5e8be15")
-		(property "Reference" "J6"
+		(property "Reference" "Joy Port1"
 			(at 102.362 95.25 0)
 			(effects
 				(font
@@ -10150,7 +10150,7 @@
 		(instances
 			(project "motherboard"
 				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b/2b90bf16-f9c5-4a1e-b375-beb837601272"
-					(reference "J6")
+					(reference "Joy Port1")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DE9_Plug"
+		(property "Value" "Serial"
 			(at 268.732 134.5621 0)
 			(effects
 				(font

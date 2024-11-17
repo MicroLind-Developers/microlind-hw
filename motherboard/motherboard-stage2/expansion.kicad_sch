@@ -6906,7 +6906,7 @@
 		)
 		(uuid "426f802a-2ecf-4244-a23b-75e4d37e4b7d")
 	)
-	(label "~{IRQ8}"
+	(label "~{IRQ4}"
 		(at 224.79 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7280,7 +7280,7 @@
 		)
 		(uuid "7a6995d5-9e47-4d04-8a5d-bcc3374d3da7")
 	)
-	(label "~{IRQ2}"
+	(label "~{IRQ6}"
 		(at 59.69 58.42 0)
 		(fields_autoplaced yes)
 		(effects
