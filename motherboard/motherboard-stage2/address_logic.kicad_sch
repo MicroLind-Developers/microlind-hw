@@ -2421,6 +2421,10 @@
 		(uuid "f90fcb99-1f38-400c-962b-cd7739656ec5")
 	)
 	(no_connect
+		(at 129.54 38.1)
+		(uuid "16c400db-7ee4-4610-8b60-79bb0a29420d")
+	)
+	(no_connect
 		(at 245.11 39.37)
 		(uuid "180308c1-5739-41b6-8847-2b7579e4e95f")
 	)
@@ -5079,16 +5083,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 38.1) (xy 148.59 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e935c36b-0dc5-4981-a661-1d2d766a83fb")
-	)
-	(wire
-		(pts
 			(xy 49.53 138.43) (xy 67.31 138.43)
 		)
 		(stroke
@@ -5217,6 +5211,25 @@
 		)
 		(uuid "ffeb00c3-6d9e-4045-8dc5-0f5a78a97483")
 	)
+	(text_box "This is wrong!"
+		(exclude_from_sim no)
+		(at 247.65 39.37 0)
+		(size 19.05 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "26d4db54-8889-4f12-a90c-5bc3c20e015a")
+	)
 	(text "A14/A0 = (~{MEM_RD} * A0) + (!~{MEM_RD} * A14)\nA15/A1 = (~{MEM_RD} * A1) + (!~{MEM_RD} * A15)"
 		(exclude_from_sim no)
 		(at 84.582 82.296 0)
@@ -5250,7 +5263,7 @@
 		)
 		(uuid "5df86ff9-c4fc-4f03-a283-5ac9f425f265")
 	)
-	(text "~{IO_EN} = A10 * ~{A11} * A12 * A13 * A14 * A15\n~{MAP_RD} = (~{RAM_EN} + ~{MEM_RD}) * ~{MAP_EN}\n\n$F400 -> ~{MEM_WR} = IO_EN * ~{WR} * ~{A0} * ~{A1} * ~{A2}* ~{A3} * ~{A4} * ~{A5} * ~{A6} * ~{A7} * ~{A8} * ~{A9}\n$F401 -> ~{IRQ_EN} = IO_EN * ~{WR} * A0 * ~{A1} * ~{A2}* ~{A3} * ~{A4} * ~{A5} * ~{A6} * ~{A7} * ~{A8} * ~{A9}\n$F402 -> ~{PWR_EN} = IO_EN * ~{WR} * ~{A0} * A1 * ~{A2}* ~{A3} * ~{A4} * ~{A5} * ~{A6} * ~{A7} * ~{A8} * ~{A9}\n"
+	(text "~{IO_EN} = A10 * ~{A11} * A12 * A13 * A14 * A15\n~{MAP_RD} = (~{RAM_EN} + ~{MEM_RD}) * ~{MAP_EN}\n"
 		(exclude_from_sim no)
 		(at 132.588 84.836 0)
 		(effects
@@ -5844,17 +5857,6 @@
 		)
 		(uuid "9976479b-8bf2-42e7-8a3e-a374ad687fad")
 	)
-	(label "~{PS2_EN}"
-		(at 132.08 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a88d12f-1278-44ff-af4f-fc83c4e3e505")
-	)
 	(label "AM16"
 		(at 95.25 118.11 0)
 		(fields_autoplaced yes)
@@ -6168,18 +6170,6 @@
 			(justify left)
 		)
 		(uuid "27851f2a-8229-4919-afc6-b0b97b2bd3d2")
-	)
-	(hierarchical_label "~{PS2_EN}"
-		(shape output)
-		(at 148.59 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31b33359-9f1e-49b7-b1a5-81688b9a3c23")
 	)
 	(hierarchical_label "~{EXP_EN}"
 		(shape output)
@@ -6896,7 +6886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GAL 22V10"
+		(property "Value" "GAL 22V10 - ADDRESS"
 			(at 119.0341 22.4098 0)
 			(effects
 				(font
@@ -7920,7 +7910,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b49a2ae-2a3b-4348-9866-f0e3772d9e52")
 		(property "Reference" "U27"
-			(at 234.3659 22.3901 0)
+			(at 234.6041 21.2555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,8 +7918,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GAL16V8"
-			(at 234.3659 24.3111 0)
+		(property "Value" "GAL16V8 - SIGNAL"
+			(at 234.6041 23.6798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +8705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GAL 22V10"
+		(property "Value" "GAL 22V10 - MEMORY"
 			(at 59.3441 63.0498 0)
 			(effects
 				(font

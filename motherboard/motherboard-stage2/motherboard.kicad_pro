@@ -533,7 +533,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "motherboard.dsn",
-      "step": "motherboard.step",
+      "step": "docs/motherboard-stage2.step",
       "svg": "",
       "vrml": "motherboard.wrl"
     },

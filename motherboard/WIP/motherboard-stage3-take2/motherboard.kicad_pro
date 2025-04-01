@@ -62,13 +62,14 @@
         "clearance|174962000|241703000|afb1a7bd-80c1-4c8e-8e4e-b21dd9c6eb8d|5d31aa5e-e862-40af-96bd-6dd1618c8d7d",
         "clearance|174962000|248803000|5f6032e7-116c-4fda-9c35-92e3ba215bc6|e204b878-c5b8-48e0-8e01-cbb67c67a7d4",
         "clearance|179662000|241703000|3184325f-6f2e-4b11-a3ce-67ece1964ee7|72072532-7403-4fc0-bf42-6b3a58157d2e",
-        "clearance|179662000|248803000|03630e43-982e-4aa9-b4cf-94c237d994bd|4fc130ec-4905-4e34-a87b-23dbb9e355b5"
+        "clearance|179662000|248803000|03630e43-982e-4aa9-b4cf-94c237d994bd|4fc130ec-4905-4e34-a87b-23dbb9e355b5",
+        "courtyards_overlap|71372001|113760001|0518f01f-5632-4466-bb91-c0d5d82ec25c|d5958721-7d97-4fa2-bed1-d3d01aa6db55"
       ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "warning",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",

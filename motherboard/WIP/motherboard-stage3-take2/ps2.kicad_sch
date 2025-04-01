@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "1c62eff1-e840-4719-a7fa-718e995ed468")
 	(paper "A4")
+	(title_block
+		(title "MicroLind - PS2 interface, Mouse & Kbd")
+		(date "2025-03-03")
+		(rev "C0")
+		(company "Eric Lind")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC14"
 			(pin_names

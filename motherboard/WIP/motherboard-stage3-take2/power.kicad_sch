@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "07ac2621-b141-4284-8c2f-efdbae4683df")
 	(paper "A4")
+	(title_block
+		(title "MicroLind - PSU & Reset")
+		(date "2025-03-03")
+		(rev "C0")
+		(company "Eric Lind")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_MountingPin"
 			(pin_names hide)
@@ -1533,6 +1539,12 @@
 		(uuid "81104618-636e-43c7-bd51-9bca7be447f6")
 	)
 	(junction
+		(at 96.52 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3c7b78-fe7f-4c80-a1a3-d56d2f9eb406")
+	)
+	(junction
 		(at 153.67 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1543,6 +1555,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6f560a0-2285-4814-aa13-b14e9cac9797")
+	)
+	(junction
+		(at 102.87 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed246b5e-24ca-4aaf-b719-64baab12cf94")
 	)
 	(junction
 		(at 123.19 127)
@@ -1570,6 +1588,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 127) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030a0ff5-bdf2-4587-84b5-988d1e85506a")
+	)
+	(wire
+		(pts
 			(xy 198.12 127) (xy 198.12 128.27)
 		)
 		(stroke
@@ -1577,6 +1605,26 @@
 			(type default)
 		)
 		(uuid "059b4eed-bc85-4b41-ac3a-96687fa5790f")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105f2e1b-b831-4050-8da0-f2b5f7d7f2d2")
+	)
+	(wire
+		(pts
+			(xy 99.06 125.73) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1653e308-c860-48f5-8424-76c10baabc90")
 	)
 	(wire
 		(pts
@@ -1617,6 +1665,16 @@
 			(type default)
 		)
 		(uuid "1d0c5a38-7f2c-400d-94d3-7d98ec80d309")
+	)
+	(wire
+		(pts
+			(xy 102.87 125.73) (xy 99.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbee59d-507b-484a-b77b-9ae1b3a70e5c")
 	)
 	(wire
 		(pts
@@ -1697,6 +1755,16 @@
 			(type default)
 		)
 		(uuid "4145bf22-ed96-49c7-96b2-d3898deb4063")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f78269-1dcb-40fd-8ca8-0835ec22babf")
 	)
 	(wire
 		(pts
@@ -1830,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 127) (xy 105.41 127)
+			(xy 93.98 127) (xy 96.52 127)
 		)
 		(stroke
 			(width 0)
@@ -1950,6 +2018,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde370f9-af6b-47a6-b825-f11c46ff6af7")
+	)
+	(wire
+		(pts
 			(xy 160.02 127) (xy 160.02 124.46)
 		)
 		(stroke
@@ -1957,6 +2035,16 @@
 			(type default)
 		)
 		(uuid "e155850b-7296-43eb-b18a-02c7f5b5fa31")
+	)
+	(wire
+		(pts
+			(xy 96.52 127) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ea8d2e-5271-4d79-8cff-d43e025559b7")
 	)
 	(wire
 		(pts
@@ -2757,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Power Switch"
 			(at 99.695 116.7822 90)
 			(effects
 				(font
