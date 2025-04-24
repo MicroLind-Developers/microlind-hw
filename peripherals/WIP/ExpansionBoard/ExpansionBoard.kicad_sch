@@ -18641,6 +18641,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 137.16 135.89)
+		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce18c533-cdac-4f73-8d08-a9d14547eae2")
+		(property "Sheetname" "auto-config"
+			(at 137.16 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "auto-config.kicad_sch"
+			(at 137.16 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ExpansionBoard"
+				(path "/98a7cdfa-c2e8-45de-8f5c-1b5e06ba58c5"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
