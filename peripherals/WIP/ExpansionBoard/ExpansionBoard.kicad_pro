@@ -606,6 +606,10 @@
       "AddressDecoder"
     ],
     [
+      "ce18c533-cdac-4f73-8d08-a9d14547eae2",
+      "auto-config"
+    ],
+    [
       "9ad2d716-2cc6-4249-b578-445caae9ca2c",
       "InteruptController"
     ]
