@@ -10034,6 +10034,7 @@
 	)
 	(label "D3"
 		(at 160.02 162.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10946,6 +10947,7 @@
 	)
 	(label "D2"
 		(at 160.02 160.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11011,6 +11013,7 @@
 	)
 	(label "D6"
 		(at 160.02 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11120,6 +11123,7 @@
 	)
 	(label "D0"
 		(at 160.02 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11262,6 +11266,7 @@
 	)
 	(label "D4"
 		(at 160.02 165.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11382,6 +11387,7 @@
 	)
 	(label "D5"
 		(at 160.02 167.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11568,6 +11574,7 @@
 	)
 	(label "D1"
 		(at 160.02 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11622,6 +11629,7 @@
 	)
 	(label "D7"
 		(at 160.02 172.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

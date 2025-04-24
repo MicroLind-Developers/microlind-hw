@@ -11114,7 +11114,7 @@
 			)
 		)
 	)
-	(global_label "~{VDC_CHIP_IRQ}"
+	(global_label "~{VDC_IRQ}"
 		(shape output)
 		(at 88.9 158.75 180)
 		(fields_autoplaced yes)
@@ -11126,7 +11126,7 @@
 		)
 		(uuid "9ddf4865-b9e1-4c2b-a2dd-928d8dc7f5e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.6704 158.75 0)
+			(at 78.1133 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

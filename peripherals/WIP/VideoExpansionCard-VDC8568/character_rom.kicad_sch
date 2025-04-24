@@ -2044,7 +2044,7 @@
 		(uuid "09871be7-8ef1-4440-a001-6d094dc87173")
 	)
 	(label "A1"
-		(at 148.59 35.56 0)
+		(at 140.97 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2055,7 +2055,7 @@
 		(uuid "0eed1347-694f-4b28-a989-873d231274bf")
 	)
 	(label "A0"
-		(at 148.59 33.02 0)
+		(at 140.97 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2209,7 +2209,7 @@
 		(uuid "c73979d0-18a8-4fba-ac2a-0ce330ee660a")
 	)
 	(label "A4"
-		(at 148.59 43.18 0)
+		(at 140.97 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2220,7 +2220,7 @@
 		(uuid "e0bbe905-b806-4298-8e36-1db8459c5aef")
 	)
 	(label "A2"
-		(at 148.59 38.1 0)
+		(at 140.97 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2253,7 +2253,7 @@
 		(uuid "f3b2805f-f20b-4894-9e18-7eab4d542db2")
 	)
 	(label "A3"
-		(at 148.59 40.64 0)
+		(at 140.97 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
