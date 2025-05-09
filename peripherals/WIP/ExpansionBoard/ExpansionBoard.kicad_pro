@@ -607,12 +607,16 @@
       "AddressDecoder"
     ],
     [
+      "9ad2d716-2cc6-4249-b578-445caae9ca2c",
+      "InteruptController"
+    ],
+    [
       "ce18c533-cdac-4f73-8d08-a9d14547eae2",
       "auto-config"
     ],
     [
-      "9ad2d716-2cc6-4249-b578-445caae9ca2c",
-      "InteruptController"
+      "a5f0f614-7e8d-4b76-84e9-11ff62541404",
+      "ExpansionSlots"
     ]
   ],
   "text_variables": {}
