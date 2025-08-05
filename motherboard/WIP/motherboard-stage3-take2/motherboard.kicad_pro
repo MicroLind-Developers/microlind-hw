@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -60,19 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|174962000|241703000|afb1a7bd-80c1-4c8e-8e4e-b21dd9c6eb8d|5d31aa5e-e862-40af-96bd-6dd1618c8d7d",
+          "clearance|174962000|241703000|3184325f-6f2e-4b11-a3ce-67ece1964ee7|72072532-7403-4fc0-bf42-6b3a58157d2e",
           ""
         ],
         [
-          "clearance|174962000|248803000|5f6032e7-116c-4fda-9c35-92e3ba215bc6|e204b878-c5b8-48e0-8e01-cbb67c67a7d4",
+          "clearance|174962000|248803000|03630e43-982e-4aa9-b4cf-94c237d994bd|4fc130ec-4905-4e34-a87b-23dbb9e355b5",
           ""
         ],
         [
-          "clearance|179662000|241703000|3184325f-6f2e-4b11-a3ce-67ece1964ee7|72072532-7403-4fc0-bf42-6b3a58157d2e",
+          "clearance|179662000|241703000|afb1a7bd-80c1-4c8e-8e4e-b21dd9c6eb8d|5d31aa5e-e862-40af-96bd-6dd1618c8d7d",
           ""
         ],
         [
-          "clearance|179662000|248803000|03630e43-982e-4aa9-b4cf-94c237d994bd|4fc130ec-4905-4e34-a87b-23dbb9e355b5",
+          "clearance|179662000|248803000|5f6032e7-116c-4fda-9c35-92e3ba215bc6|e204b878-c5b8-48e0-8e01-cbb67c67a7d4",
           ""
         ],
         [
