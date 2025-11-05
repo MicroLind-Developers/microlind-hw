@@ -5984,16 +5984,6 @@
 		)
 		(uuid "ea0b60af-3a62-4363-a273-fad9724b0bd6")
 	)
-	(wire
-		(pts
-			(xy 232.41 58.42) (xy 238.76 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6253e2-db7f-4522-bfb8-45b4214fb36c")
-	)
 	(bus
 		(pts
 			(xy 127 101.6) (xy 187.96 101.6)
@@ -7094,8 +7084,8 @@
 		)
 		(uuid "d91de5c0-ddec-4cc5-8402-c2565e8e8dbc")
 	)
-	(label "~{EX_IRQ}"
-		(at 147.32 36.83 0)
+	(label "~{EXP_IRQ_R}"
+		(at 142.24 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7154,8 +7144,8 @@
 		)
 		(uuid "f8b35427-8957-4533-984e-8e1ee52e3134")
 	)
-	(label "~{EX_IRQ}"
-		(at 58.42 36.83 0)
+	(label "~{EXP_IRQ_L}"
+		(at 54.61 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8558,7 +8548,7 @@
 		)
 		(uuid "0e83ae0c-2089-4d6b-a22c-218b5818dff3")
 	)
-	(hierarchical_label "~{EX_IRQ}"
+	(hierarchical_label "~{EXP_IRQ_R}"
 		(shape input)
 		(at 119.38 36.83 180)
 		(effects
@@ -8624,18 +8614,7 @@
 		)
 		(uuid "2ca486ef-60ba-40a2-8a01-121970ba5ebc")
 	)
-	(hierarchical_label "~{EX_IRQ}"
-		(shape input)
-		(at 232.41 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d472186-4a1b-4838-b348-7a0811998784")
-	)
-	(hierarchical_label "~{EX_IRQ}"
+	(hierarchical_label "~{EXP_IRQ_L}"
 		(shape input)
 		(at 30.48 36.83 180)
 		(effects
@@ -9302,7 +9281,7 @@
 				)
 			)
 		)
-		(property "Value" "ExpansionPort"
+		(property "Value" "ExpansionPort_OUT"
 			(at 160.02 31.2998 0)
 			(effects
 				(font
@@ -10568,7 +10547,7 @@
 				)
 			)
 		)
-		(property "Value" "ExpansionPort"
+		(property "Value" "ExpansionPort_IN"
 			(at 71.12 31.2998 0)
 			(effects
 				(font
@@ -11025,7 +11004,7 @@
 	)
 	(sheet
 		(at 238.76 48.26)
-		(size 31.75 13.97)
+		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11049,7 +11028,7 @@
 			)
 		)
 		(property "Sheetfile" "AddressDecoder.kicad_sch"
-			(at 238.76 62.8146 0)
+			(at 238.76 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,16 +11059,6 @@
 		(pin "~{EXP_EN}" input
 			(at 238.76 60.96 180)
 			(uuid "0d84e6ef-a6db-46b9-9768-29e188ec9446")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{EX_IRQ}" output
-			(at 238.76 58.42 180)
-			(uuid "fc315773-82fe-4a95-b979-7a61f5ee87ee")
 			(effects
 				(font
 					(size 1.27 1.27)
