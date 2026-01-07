@@ -10691,7 +10691,7 @@
 		(uuid "b749ab86-8429-4fbc-af29-e1157dc6e7c5")
 	)
 	(hierarchical_label "~{BREQ}"
-		(shape input)
+		(shape output)
 		(at 86.36 58.42 0)
 		(effects
 			(font

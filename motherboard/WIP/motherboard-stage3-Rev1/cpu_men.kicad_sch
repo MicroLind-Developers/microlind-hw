@@ -3953,26 +3953,6 @@
 		)
 		(uuid "00719959-34b8-42a6-abd3-0190fac34643")
 	)
-	(text_box "Tie R/W to pull-up.\nAdd Pull-up on Data/Address bus."
-		(exclude_from_sim no)
-		(at 48.26 16.51 0)
-		(size 38.1 16.51)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "481784e3-e210-456a-9cbc-3fcfb82c6111")
-	)
 	(junction
 		(at 33.02 59.69)
 		(diameter 0)
@@ -6024,7 +6004,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 83.82 92.71)
+			(xy 85.09 92.71) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -11582,17 +11562,6 @@
 		)
 		(uuid "ffb09154-00b0-4aed-8062-eeb2056df31b")
 	)
-	(hierarchical_label "R{slash}~{W}"
-		(shape output)
-		(at 86.36 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03bc1abf-1671-4a49-890c-bdd0a29fc175")
-	)
 	(hierarchical_label "~{RAML_EN}"
 		(shape input)
 		(at 198.12 92.71 0)
@@ -11625,6 +11594,17 @@
 			(justify left)
 		)
 		(uuid "17f40590-91a5-46ea-9d6f-c96fa5bbe8fc")
+	)
+	(hierarchical_label "pre_R{slash}~{W}"
+		(shape output)
+		(at 85.09 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19e6c851-3a37-4c66-b104-6cf5a61241e6")
 	)
 	(hierarchical_label "BA"
 		(shape output)
