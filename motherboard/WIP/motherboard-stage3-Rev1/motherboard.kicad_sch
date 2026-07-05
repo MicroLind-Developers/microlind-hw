@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4cf1c087-5c32-4958-ab30-5e92afc4ef4b")
 	(paper "A4")
 	(title_block
@@ -14,67 +14,83 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#SYM"
 				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "Logo_Open_Hardware_Small"
 				(at 0 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Open Hardware logo, small"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Enable" "0"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Logo"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Logo_Open_Hardware_Small_0_1"
@@ -153,8 +169,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -163,6 +183,8 @@
 			)
 			(property "Value" "MountingHole"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -171,47 +193,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_0_1"
@@ -233,58 +265,72 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LOGO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "OSHW Certification Mark, Logo only"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "OSHW Mark"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "OSHW_Certification_Mark_Logo_Medium_0_1"
@@ -499,8 +545,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -509,6 +559,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -517,29 +569,35 @@
 			)
 			(property "Footprint" "motherboard:mITX"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "mITX_0_1"
@@ -614,12 +672,6 @@
 		(uuid "94b728b0-5bd3-4a6e-b53c-84bd487eb3ae")
 	)
 	(junction
-		(at 80.01 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07b4ae49-25ee-4cea-9c45-8cea942ce9cc")
-	)
-	(junction
 		(at 77.47 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -638,22 +690,10 @@
 		(uuid "238b032a-bb13-47ce-9cb4-2b92eb414fb4")
 	)
 	(junction
-		(at 166.37 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2722caf9-513a-47a4-be1b-c205d5a2fcea")
-	)
-	(junction
 		(at 151.13 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "277f89f3-b8ba-4bcc-9b52-05296d4d3750")
-	)
-	(junction
-		(at 77.47 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33abe4dc-f9f6-43fe-8b9a-d2a55ee2894e")
 	)
 	(junction
 		(at 138.43 115.57)
@@ -698,12 +738,6 @@
 		(uuid "83664fde-73b8-40e1-b6d1-adf2fe3d46f1")
 	)
 	(junction
-		(at 133.35 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "916b20b1-ecfa-4eeb-978e-5409e3c9fc42")
-	)
-	(junction
 		(at 148.59 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -740,12 +774,6 @@
 		(uuid "c7fdc8dc-f4d5-4bab-b6d8-eabbf79e5588")
 	)
 	(junction
-		(at 130.81 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3c4cd66-48b7-4ce2-9377-4fe7ab2d0db6")
-	)
-	(junction
 		(at 91.44 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -762,12 +790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6ad3577-ff40-44a9-8c96-af496c281ae8")
-	)
-	(junction
-		(at 168.91 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "febfb673-6fa9-4c24-8778-1ea23c57bfe9")
 	)
 	(no_connect
 		(at 38.1 68.58)
@@ -801,6 +823,10 @@
 		(at 38.1 64.77)
 		(uuid "b9b3f625-f3af-4e9c-af90-bbf1d86f9357")
 	)
+	(no_connect
+		(at 213.36 86.36)
+		(uuid "bdacaa15-f4fd-4942-a427-9e146b8ebeda")
+	)
 	(bus_entry
 		(at 158.75 93.98)
 		(size 2.54 2.54)
@@ -809,44 +835,6 @@
 			(type default)
 		)
 		(uuid "1ab5221b-121a-44c9-823d-ea761c9b4428")
-	)
-	(bus_entry
-		(at 156.21 93.98)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8f22f5-1494-4584-8df4-742a07cfceb8")
-	)
-	(bus_entry
-		(at 153.67 93.98)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a4808e-865c-4d26-b943-fd185d2c97f3")
-	)
-	(wire
-		(pts
-			(xy 156.21 91.44) (xy 156.21 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f2656b-461e-42c1-b8fc-6ec5e57d5d0a")
-	)
-	(wire
-		(pts
-			(xy 161.29 66.04) (xy 184.15 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "013b2e0d-5a0f-4e4d-9dac-b32be51684d1")
 	)
 	(wire
 		(pts
@@ -857,16 +845,6 @@
 			(type default)
 		)
 		(uuid "01bee8e6-a388-4408-aa93-001719b2eab9")
-	)
-	(wire
-		(pts
-			(xy 153.67 73.66) (xy 77.47 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e7aa00-5551-4225-8cb7-9f8667505f23")
 	)
 	(wire
 		(pts
@@ -908,16 +886,6 @@
 		)
 		(uuid "0ab6360d-2131-4c30-8500-8d51d88de802")
 	)
-	(bus
-		(pts
-			(xy 153.67 93.98) (xy 156.21 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aff351b-d7e6-4cda-a5ef-aedef5a28817")
-	)
 	(wire
 		(pts
 			(xy 196.85 118.11) (xy 196.85 106.68)
@@ -927,16 +895,6 @@
 			(type default)
 		)
 		(uuid "0b24506d-1ecc-4979-9a12-7bfa3a6dc9db")
-	)
-	(wire
-		(pts
-			(xy 181.61 68.58) (xy 181.61 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf62ae5-8d49-44bc-8f7c-44ec3b4bc54f")
 	)
 	(wire
 		(pts
@@ -980,16 +938,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 63.5) (xy 77.47 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d6da47-27d5-4deb-a7ef-2390cfec514b")
-	)
-	(wire
-		(pts
 			(xy 190.5 74.93) (xy 190.5 86.36)
 		)
 		(stroke
@@ -997,16 +945,6 @@
 			(type default)
 		)
 		(uuid "197b608e-bcd8-4471-8ba6-316929f2342a")
-	)
-	(wire
-		(pts
-			(xy 156.21 63.5) (xy 156.21 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19a9b5b6-8481-4323-8e4a-621449f98f04")
 	)
 	(wire
 		(pts
@@ -1068,16 +1006,6 @@
 		)
 		(uuid "241f7f98-bfb5-400d-b67b-a77334de089f")
 	)
-	(wire
-		(pts
-			(xy 162.56 91.44) (xy 162.56 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24e9d26e-7fcc-4c48-ad92-dd1bcf3b9552")
-	)
 	(bus
 		(pts
 			(xy 151.13 100.33) (xy 151.13 128.27)
@@ -1138,16 +1066,6 @@
 		)
 		(uuid "2d28c299-262b-4e6c-940d-f42d0f530b15")
 	)
-	(wire
-		(pts
-			(xy 179.07 73.66) (xy 213.36 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5ad948-0f47-4f13-9725-8dbf00243729")
-	)
 	(bus
 		(pts
 			(xy 148.59 97.79) (xy 148.59 128.27)
@@ -1157,16 +1075,6 @@
 			(type default)
 		)
 		(uuid "2d8621da-ba1d-4d42-acc6-5b3c0359e408")
-	)
-	(wire
-		(pts
-			(xy 151.13 68.58) (xy 151.13 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dbade40-5048-4f7c-bd63-16064e175959")
 	)
 	(wire
 		(pts
@@ -1187,16 +1095,6 @@
 			(type default)
 		)
 		(uuid "32ec297b-c91f-4e91-ae88-925e7759c45c")
-	)
-	(wire
-		(pts
-			(xy 156.21 90.17) (xy 161.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33225589-a990-4e87-9a77-52d2b7920bfc")
 	)
 	(wire
 		(pts
@@ -1248,16 +1146,6 @@
 		)
 		(uuid "364e36d9-f190-45ec-a797-9504b5c430d3")
 	)
-	(bus
-		(pts
-			(xy 166.37 63.5) (xy 166.37 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a8c6b7d-b36f-4d34-a27e-c00efa2ac0cb")
-	)
 	(wire
 		(pts
 			(xy 212.09 109.22) (xy 212.09 106.68)
@@ -1270,16 +1158,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 158.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cd5f6ad-ab42-4c70-a5d0-ac80b4299079")
-	)
-	(wire
-		(pts
 			(xy 128.27 119.38) (xy 128.27 128.27)
 		)
 		(stroke
@@ -1287,16 +1165,6 @@
 			(type default)
 		)
 		(uuid "3d3b75a0-52b1-4d4c-a115-ccd618907f6b")
-	)
-	(bus
-		(pts
-			(xy 166.37 100.33) (xy 181.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ea8de63-f274-43f3-b125-37f993ce1294")
 	)
 	(bus
 		(pts
@@ -1340,16 +1208,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 82.55) (xy 130.81 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "413d06aa-c864-4055-8cae-c42bcdffa39c")
-	)
-	(wire
-		(pts
 			(xy 115.57 128.27) (xy 115.57 78.74)
 		)
 		(stroke
@@ -1367,16 +1225,6 @@
 			(type default)
 		)
 		(uuid "4353e19b-a928-43bf-be4f-b2a3af1c1826")
-	)
-	(bus
-		(pts
-			(xy 168.91 63.5) (xy 168.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a7669f-abfb-4373-a9db-91cfac77e5fb")
 	)
 	(wire
 		(pts
@@ -1407,16 +1255,6 @@
 			(type default)
 		)
 		(uuid "4cc5ac6a-d4f2-4445-b0ea-46ae33e8b17a")
-	)
-	(wire
-		(pts
-			(xy 80.01 63.5) (xy 80.01 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e054d68-d1f9-4645-a51d-318eac688cce")
 	)
 	(bus
 		(pts
@@ -1450,7 +1288,7 @@
 	)
 	(bus
 		(pts
-			(xy 151.13 100.33) (xy 166.37 100.33)
+			(xy 151.13 100.33) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1328,7 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 93.98) (xy 153.67 93.98)
+			(xy 100.33 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1620,16 +1458,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 63.5) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7487cda1-cbf2-4b04-afa9-1982faf8f355")
-	)
-	(wire
-		(pts
 			(xy 209.55 120.65) (xy 107.95 120.65)
 		)
 		(stroke
@@ -1680,16 +1508,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 82.55) (xy 130.81 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bbd9dcf-ed8c-40ce-811d-d0b2bdb6f048")
-	)
-	(wire
-		(pts
 			(xy 200.66 83.82) (xy 200.66 86.36)
 		)
 		(stroke
@@ -1697,16 +1515,6 @@
 			(type default)
 		)
 		(uuid "7c2e0f8f-02a3-471a-8acc-c4854eddec88")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 162.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e650f2f-9bed-4087-9647-ab6091c5171c")
 	)
 	(wire
 		(pts
@@ -1737,26 +1545,6 @@
 			(type default)
 		)
 		(uuid "843aa8e5-ffd8-45c3-91a2-c5fa9d559820")
-	)
-	(bus
-		(pts
-			(xy 148.59 97.79) (xy 168.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "859868aa-45e3-4378-b126-33320909a53e")
-	)
-	(wire
-		(pts
-			(xy 184.15 66.04) (xy 184.15 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7a6660-688f-416d-9468-f8432ef8d152")
 	)
 	(wire
 		(pts
@@ -1820,16 +1608,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 68.58) (xy 151.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b872cd4-53cf-4787-8f87-a9d06ddcd078")
-	)
-	(wire
-		(pts
 			(xy 133.35 118.11) (xy 196.85 118.11)
 		)
 		(stroke
@@ -1860,33 +1638,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 153.67 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ef3e40f-71d5-404d-af77-58096ca7fba6")
-	)
-	(wire
-		(pts
-			(xy 77.47 73.66) (xy 77.47 78.74)
+			(xy 77.47 63.5) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa1b6c59-b461-4d4a-9bb0-be5005c8c856")
-	)
-	(bus
-		(pts
-			(xy 156.21 93.98) (xy 158.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab4a447c-de7f-482c-99e3-b3d01e1acb96")
 	)
 	(wire
 		(pts
@@ -1930,7 +1688,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 97.79) (xy 181.61 97.79)
+			(xy 148.59 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1947,16 +1705,6 @@
 			(type default)
 		)
 		(uuid "b6133392-8a72-4848-82ac-a4b315b94ff2")
-	)
-	(wire
-		(pts
-			(xy 156.21 87.63) (xy 133.35 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6bfa78e-902d-40c7-9efd-8a5c12c9562a")
 	)
 	(wire
 		(pts
@@ -2080,16 +1828,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 161.29 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d62ff0be-86c8-41fe-8c4c-9dd4ee7dfa74")
-	)
-	(wire
-		(pts
 			(xy 113.03 77.47) (xy 187.96 77.47)
 		)
 		(stroke
@@ -2110,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 68.58) (xy 80.01 81.28)
+			(xy 80.01 63.5) (xy 80.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2197,26 +1935,6 @@
 			(type default)
 		)
 		(uuid "ebe92e6d-3bb3-47d3-bd53-be9fbf1852ca")
-	)
-	(wire
-		(pts
-			(xy 162.56 68.58) (xy 181.61 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecdcbc7d-aecc-4e8c-b71d-2cfe3094da55")
-	)
-	(wire
-		(pts
-			(xy 133.35 87.63) (xy 133.35 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed04c3a5-694d-4de5-a314-6c808a22e5c4")
 	)
 	(wire
 		(pts
@@ -2310,16 +2028,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 73.66) (xy 213.36 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99b370a-aeac-405a-a8d7-3bc56dd581e8")
-	)
-	(wire
-		(pts
 			(xy 175.26 111.76) (xy 207.01 111.76)
 		)
 		(stroke
@@ -2337,26 +2045,6 @@
 			(type default)
 		)
 		(uuid "ff382adb-78ec-4f78-86fd-b0a61d0007d8")
-	)
-	(label "~{IRQ_8}"
-		(at 172.72 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02979499-a246-4964-b8e7-1e1a48aa4876")
-	)
-	(label "~{IRQ_12}"
-		(at 171.45 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7aedf823-d843-499f-9971-df1d0d0b70cc")
 	)
 	(label "~{IRQ_0}"
 		(at 161.29 121.92 270)
@@ -2412,14 +2100,18 @@
 		(lib_id "motherboard:mITX")
 		(at 271.78 68.58 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4559b714-bc63-4860-8cc5-cced2d7b3da5")
 		(property "Reference" "U1"
 			(at 275.59 66.3568 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,8 +2119,10 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 271.78 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,29 +2131,35 @@
 		)
 		(property "Footprint" "kicad-lib:mITX"
 			(at 271.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 271.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 271.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2475,55 +2175,67 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 255.27 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "549802d7-0d0b-450e-84df-f5f7ab8995b4")
 		(property "Reference" "#SYM4"
 			(at 255.27 15.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
 			(at 255.27 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 255.27 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 255.27 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
 			(at 255.27 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2539,14 +2251,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 266.7 41.91 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e6ec62d-325d-47fb-9bae-8c23c855861a")
 		(property "Reference" "H3"
 			(at 269.24 41.2663 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,6 +2272,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 269.24 43.1873 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,29 +2283,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2603,55 +2327,67 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 22.86 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7740978d-3061-4346-b0f6-88dd54076e3d")
 		(property "Reference" "#SYM1"
 			(at 22.86 15.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
 			(at 22.86 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
 			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2667,14 +2403,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 266.7 36.83 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95a6b9c1-ac45-40eb-bbe1-5729f8f59528")
 		(property "Reference" "H2"
 			(at 269.24 36.1863 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,6 +2424,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 269.24 38.1073 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,29 +2435,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 266.7 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 266.7 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2731,59 +2479,71 @@
 		(lib_id "OSHW_Certification_Mark:OSHW_Certification_Mark_Logo_Medium")
 		(at 275.59 171.45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5a49a1a-f74b-4a9c-8794-1b7c2cae0475")
 		(property "Reference" "LOGO1"
 			(at 275.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 275.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 275.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 275.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "OSHW Certification Mark, Logo only"
 			(at 275.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "motherboard"
 				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b"
 					(reference "LOGO1")
 					(unit 1)
@@ -2795,55 +2555,67 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 273.05 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a600be86-587a-4111-b6bd-42a6125effc3")
 		(property "Reference" "#SYM2"
 			(at 273.05 15.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
 			(at 273.05 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 273.05 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 273.05 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
 			(at 273.05 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2859,59 +2631,71 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 38.1 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ff76a8-ab6e-4934-9eb4-2c847aa3f713")
 		(property "Reference" "#SYM3"
 			(at 38.1 15.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
 			(at 38.1 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 38.1 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
 			(at 38.1 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "motherboard"
 				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b"
 					(reference "#SYM3")
 					(unit 1)
@@ -2923,14 +2707,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 266.7 52.07 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c365a401-37d2-4e01-b1e4-6eb275412044")
 		(property "Reference" "H5"
 			(at 269.24 51.4263 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,6 +2728,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 269.24 53.3473 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,29 +2739,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 266.7 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 266.7 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2987,14 +2783,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 266.7 46.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4898ca4-8f04-4492-8d89-0b316363bb68")
 		(property "Reference" "H4"
 			(at 269.24 46.3463 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,6 +2804,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 269.24 48.2673 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,29 +2815,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 266.7 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 266.7 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -3051,14 +2859,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 266.7 31.75 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4e2374e-8fae-456d-8801-1e6a5e041560")
 		(property "Reference" "H1"
 			(at 269.24 31.1063 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,6 +2880,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 269.24 33.0273 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,29 +2891,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 266.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 266.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -3115,14 +2935,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 266.7 57.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4565cef-d22f-48d3-bf41-d4223d22d012")
 		(property "Reference" "H6"
 			(at 269.24 56.5063 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,6 +2956,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 269.24 58.4273 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,29 +2967,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 266.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 266.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -3188,11 +3020,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2674a088-a7e1-45c5-a464-4e213ad1e901")
 		(property "Sheetname" "Power-Management"
 			(at 39.37 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,6 +3036,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 39.37 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,11 +3047,13 @@
 		)
 		(property "Field2" ""
 			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "~{RST}" output
@@ -3258,11 +3096,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2b90bf16-f9c5-4a1e-b375-beb837601272")
 		(property "Sheetname" "Serial-Parallel"
 			(at 167.132 151.384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,6 +3112,8 @@
 		)
 		(property "Sheetfile" "serial.kicad_sch"
 			(at 125.984 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,11 +3123,13 @@
 		)
 		(property "Field2" ""
 			(at 125.73 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "R{slash}~{W}" input
@@ -3428,11 +3272,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3f2dac53-f913-4700-9643-6801a186951e")
 		(property "Sheetname" "Address-Logic"
 			(at 240.792 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,6 +3288,8 @@
 		)
 		(property "Sheetfile" "address_logic.kicad_sch"
 			(at 241.554 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,11 +3299,13 @@
 		)
 		(property "Field2" ""
 			(at 181.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "AM[14..21]" output
@@ -3788,11 +3638,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "48f8e149-3f9d-4387-a5d4-53d4d76a2abd")
 		(property "Sheetname" "Expansion Ports"
 			(at 107.442 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,6 +3654,8 @@
 		)
 		(property "Sheetfile" "expansion.kicad_sch"
 			(at 71.12 150.622 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,11 +3853,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8bee193f-f974-40fd-8292-ec5c594bf5d7")
 		(property "Sheetname" "IRQ-Handler"
 			(at 73.66 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,6 +3869,8 @@
 		)
 		(property "Sheetfile" "irq_handler.kicad_sch"
 			(at 90.17 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,11 +3880,13 @@
 		)
 		(property "Field2" ""
 			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "~{IRQ_[0..15]}" input
@@ -4119,11 +3979,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8d1ce991-8a62-4e08-8a5e-b7da93c506d5")
 		(property "Sheetname" "CPU_MEM"
 			(at 35.052 61.468 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,6 +3995,8 @@
 		)
 		(property "Sheetfile" "cpu_men.kicad_sch"
 			(at 38.1 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,11 +4006,13 @@
 		)
 		(property "Field2" ""
 			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "BA" output
@@ -4363,137 +4229,6 @@
 			(project "motherboard"
 				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 148.59 50.8)
-		(size 38.1 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ac3927ac-49cc-4633-84fb-4994ec57a83a")
-		(property "Sheetname" "PS2"
-			(at 148.59 50.0884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ps2.kicad_sch"
-			(at 168.656 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "D[0..7]" bidirectional
-			(at 168.91 63.5 270)
-			(uuid "33c298e2-2272-40bc-9057-a0fabf376691")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT_PS2_M}" output
-			(at 184.15 63.5 270)
-			(uuid "c18c8b31-7b75-4c70-ae64-dfbef5e59122")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT_PS2_KB}" output
-			(at 181.61 63.5 270)
-			(uuid "3598bb24-78d4-4e29-ba04-e6c0e1d4323d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "E" input
-			(at 156.21 63.5 270)
-			(uuid "26ed251e-ef81-41d8-856c-0dc743ac433b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RST}" input
-			(at 158.75 63.5 270)
-			(uuid "6f48c701-38b8-41c5-af6f-4bc101660968")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A[0..15]" input
-			(at 166.37 63.5 270)
-			(uuid "2766a62c-031d-423b-ad53-988c246d4e39")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PS2_EN}" input
-			(at 179.07 63.5 270)
-			(uuid "098a78fd-ee29-47f8-a42d-93fdccd98c4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RD}" input
-			(at 153.67 63.5 270)
-			(uuid "4326becf-3bf2-4e1e-b8c1-3df88b7e0261")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{WR}" input
-			(at 151.13 63.5 270)
-			(uuid "1599861c-de04-440c-a106-7c138b08c9c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "motherboard"
-				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b"
-					(page "8")
 				)
 			)
 		)
