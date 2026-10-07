@@ -3795,6 +3795,12 @@
 		(uuid "38a13b3f-e188-4ddd-a4bd-ddd0aa78ec05")
 	)
 	(junction
+		(at 269.24 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e84348c-c163-4553-aaae-8655b3fa9ef3")
+	)
+	(junction
 		(at 130.81 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3925,6 +3931,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aec51a58-3fd5-436b-8715-ce88ad46cd07")
+	)
+	(junction
+		(at 269.24 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de55e14c-9ad7-4182-9620-7cff7e84f48d")
 	)
 	(junction
 		(at 203.2 36.83)
@@ -4705,6 +4717,16 @@
 			(type default)
 		)
 		(uuid "165d412b-7126-478f-9d26-e9c3b4fe174c")
+	)
+	(wire
+		(pts
+			(xy 279.4 144.78) (xy 279.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d0b3c1-9809-456c-b94d-9c44ca84be0e")
 	)
 	(wire
 		(pts
@@ -5938,6 +5960,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 154.94) (xy 279.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83429c96-93d5-4ff7-82be-a92f8fab5f58")
+	)
+	(wire
+		(pts
 			(xy 218.44 39.37) (xy 219.71 39.37)
 		)
 		(stroke
@@ -6235,6 +6267,16 @@
 			(type default)
 		)
 		(uuid "9cd11ef3-31ed-4dbe-8bb7-0739d351d3af")
+	)
+	(wire
+		(pts
+			(xy 279.4 154.94) (xy 279.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d33012a-5809-462c-9ccc-133cb727b3b7")
 	)
 	(wire
 		(pts
@@ -7085,6 +7127,16 @@
 			(type default)
 		)
 		(uuid "e3fcc7fb-1ef8-42b4-920f-fbf36cf0ea4a")
+	)
+	(wire
+		(pts
+			(xy 269.24 144.78) (xy 279.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b8cb41-8fd2-4dab-aa72-143f265201c9")
 	)
 	(bus
 		(pts
@@ -11072,6 +11124,88 @@
 			(project "motherboard"
 				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b/3f2dac53-f913-4700-9643-6801a186951e"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 279.4 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a5ca96-d1f4-4f28-9f90-75760f139931")
+		(property "Reference" "C42"
+			(at 282.321 149.2163 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 282.321 151.1373 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 280.3652 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db64ffdf-c2f6-4d53-aac5-12b86493a923")
+		)
+		(pin "2"
+			(uuid "a440bf4f-2e72-4e6d-a37f-2e12f8735938")
+		)
+		(instances
+			(project "motherboard"
+				(path "/4cf1c087-5c32-4958-ab30-5e92afc4ef4b/3f2dac53-f913-4700-9643-6801a186951e"
+					(reference "C42")
 					(unit 1)
 				)
 			)
